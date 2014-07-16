@@ -1,0 +1,50 @@
+{
+    "name": "luismayta/oauth",
+    "description": "Api Oauth",
+    "keywords": [
+        "Urbania",
+        "oauth2.0"
+    ],
+    "license": "MIT",
+    "time": "2014-07-16",
+	"config": {
+    	"process-timeout": 5000
+    },
+    "authors": [
+        {
+            "name": "Luis Mayta",
+            "email": "slovacus@gmail.com",
+            "role": "Developer"
+        }
+            ],
+        "homepage": "http://api.oauth.ec",
+        "require": {
+            "php": ">=5.4.0",
+            "zendframework/zendframework": "2.3.0",
+            "zfcampus/zf-development-mode": "~2.0",
+            "vgarvardt/zf-simple-migrations": "dev-master",
+            "bshaffer/oauth2-server-php": "v1.3",
+            "widmogrod/zf2-rest-api-documentator": "1.6.3",
+            "zfcampus/zf-api-problem": "~1.0-dev",
+            "zfcampus/zf-oauth2": "0.9.0",
+            "zfcampus/zf-content-negotiation": "~1.0-dev",
+            "zfcampus/zf-content-validation": "~1.0-dev",
+            "zfcampus/zf-versioning": "~1.0-dev",
+            "zfcampus/zf-rest": "0.9.0"
+        },
+        "require-dev": {
+            "fzaninotto/faker": "dev-master",
+            "zendframework/zftool": "dev-master",
+            "zendframework/zend-developer-tools": "dev-master",
+            "evandotpro/edp-class-counter": "dev-master",
+            "codeception/codeception": "*",
+            "fabpot/php-cs-fixer": "dev-master",
+            "mockery/mockery": "0.8.0",
+            "phpunit/phpunit": "~4.0"
+        },
+        "prefer-stable": true,
+        "minimum-stability": "dev",
+        "config": {
+            "bin-dir": "vendor/bin/"
+        }
+}
