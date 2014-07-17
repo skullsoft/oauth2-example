@@ -42,7 +42,7 @@ class Module
     {
         return array(
             "Check exists Data" => function (){
-                return file_exists("data1") && is_dir("data");
+                return file_exists("data") && is_dir("data");
             }
         );
     }
