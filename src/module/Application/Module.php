@@ -11,6 +11,7 @@ namespace Application;
 
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
+use Zend\ModuleManager\Feature\ServiceProviderInterface;
 
 class Module
 {
@@ -36,4 +37,5 @@ class Module
             ),
         );
     }
+
 }
