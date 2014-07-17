@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
             #guest_config.librarian_puppet.puppetfile_dir = "puppet"
 
             # This will give the machine a static IP uncomment to enable
-            guest_config.vm.network :private_network, ip: "192.168.131.2"
+            guest_config.vm.network :private_network, ip: "192.168.131.3"
             #virtualbox__intnet: true
             guest_config.vm.network "public_network"
             guest_config.vm.network :forwarded_port, guest: 80, host: 8888, auto_correct: true
