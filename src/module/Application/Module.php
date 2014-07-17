@@ -38,12 +38,4 @@ class Module
         );
     }
 
-    public function getDiagnostics()
-    {
-        return array(
-            "Check exists Data" => function (){
-                return file_exists("data") && is_dir("data");
-            }
-        );
-    }
 }
