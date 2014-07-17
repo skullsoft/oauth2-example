@@ -11,6 +11,7 @@ namespace Application;
 
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
+use Zend\ModuleManager\Feature\ServiceProviderInterface;
 
 class Module
 {
@@ -34,6 +35,15 @@ class Module
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
                 ),
             ),
+        );
+    }
+
+    public function getDiagnostics()
+    {
+        return array(
+            "Check exists Data" => function (){
+                return file_exists("data1") && is_dir("data");
+            }
         );
     }
 }
