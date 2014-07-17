@@ -2,6 +2,15 @@
 return array(
     // This should be an array of module namespaces used in the application.
     'modules' => array(
+        'ZfSimpleMigrations',
+        'ZF\DevelopmentMode',
+        'ZF\ApiProblem',
+        'ZF\OAuth2',
+        'ZF\Hal',
+        'ZF\ContentNegotiation',
+        'ZF\ContentValidation',
+        'ZF\Rest',
+        'ZF\Versioning',
         'Application',
     ),
 
