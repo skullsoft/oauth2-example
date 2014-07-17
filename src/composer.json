@@ -26,11 +26,11 @@
             "bshaffer/oauth2-server-php": "v1.3",
             "widmogrod/zf2-rest-api-documentator": "1.6.3",
             "zfcampus/zf-api-problem": "~1.0-dev",
-            "zfcampus/zf-oauth2": "0.9.0",
+            "zfcampus/zf-oauth2": "1.0.0",
             "zfcampus/zf-content-negotiation": "~1.0-dev",
             "zfcampus/zf-content-validation": "~1.0-dev",
             "zfcampus/zf-versioning": "~1.0-dev",
-            "zfcampus/zf-rest": "0.9.0"
+            "zfcampus/zf-rest": "1.0.0"
         },
         "require-dev": {
             "fzaninotto/faker": "dev-master",
