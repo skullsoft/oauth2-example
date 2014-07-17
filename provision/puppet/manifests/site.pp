@@ -1,4 +1,4 @@
-$domain_name = "local.urbania.ec"
+$domain_name = "api.oauth.ec"
 
 $mysqlPassword = ""
 
@@ -14,8 +14,6 @@ include wget
 include php54
 include apache
 include vim
-include mongodb
-include mongophpext
 
 wget::fetch { "get composer":
        source      => 'https://getcomposer.org/composer.phar',
