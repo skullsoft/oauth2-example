@@ -33,6 +33,7 @@
             "zfcampus/zf-rest": "1.0.0"
         },
         "require-dev": {
+            "zendframework/zenddiagnostics": "v1.0.2",
             "fzaninotto/faker": "dev-master",
             "zendframework/zftool": "dev-master",
             "zendframework/zend-developer-tools": "dev-master",
