@@ -19,9 +19,8 @@ class Module
         );
     }
 
-    public static function checkPaths($path)
+    public static function checkPath($path)
     {
-        var_dump($path);
-        return true;
+        return file_exists($path) && is_dir($path);
     }
 }
