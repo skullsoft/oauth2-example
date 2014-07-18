@@ -37,6 +37,11 @@ class CheckDbAdapterMySQL implements CheckInterface, ServiceLocatorAwareInterfac
                 throw new Exception("No hay conexion a la BD");
             }
 
+            $database = mysql_select_db($params["database"], $link);
+
+            if(!$database){
+                throw new Exception("No Error al conectar a la BD");
+            }
 
             return new Success("Success");
 
