@@ -22,11 +22,15 @@ return array(
         'factories' => array(
             'Zend\Db\Adapter\Adapter' => 'Zend\Db\Adapter\AdapterServiceFactory',
             'navigation' => 'Zend\Navigation\Service\DefaultNavigationFactory',
-            ),
         ),
-        'view_manager' => array(
-            'base_path' => "http://api.oauth.ec",
-            'display_not_found_reason' => true,
-            'display_exceptions' => true,
+        'aliases' => array(
+            'dbAdapter' => 'Zend\Db\Adapter\Adapter',
         ),
+        ),
+    'view_manager' => array(
+        'base_path' => "http://api.oauth.ec",
+        'display_not_found_reason' => true,
+        'display_exceptions' => true,
+    ),
+
     );
